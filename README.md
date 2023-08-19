@@ -32,10 +32,8 @@ rm -f /www/server/panel/data/bind.pl
 文件路径：`/www/server/panel/data/plugin.json`
 
 搜索字符串：`"endtime": -1`全部替换为`"endtime": 999999999999`
-4,还是在上面的文件内
-
+还是在上面的文件内
 搜索：\u63a8\u8350
-
 在结果前有"panel_pro": -1, “panel_ltd": -1,的代码。我们将-1改为0即可。
 
 -1代表没有授权，0代表专业版永久授权。
@@ -45,7 +43,7 @@ rm -f /www/server/panel/data/bind.pl
 ```
 chattr +i /www/server/panel/data/plugin.json
 ```
-6，解除命令
+解除命令
 chattr -i /www/server/panel/data/plugin.json
 ============================
 
