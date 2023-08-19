@@ -45,7 +45,8 @@ rm -f /www/server/panel/data/bind.pl
 ```
 chattr +i /www/server/panel/data/plugin.json
 ```
-
+解除命令
+chattr -i /www/server/panel/data/plugin.json
 ============================
 
 ！！如需取消屏蔽手机号
