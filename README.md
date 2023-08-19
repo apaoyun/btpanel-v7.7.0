@@ -38,7 +38,7 @@ rm -f /www/server/panel/data/bind.pl
 
 -1代表没有授权，0代表专业版永久授权。
 
-5，给plugin.json文件上锁防止自动修复为免费版
+4，给plugin.json文件上锁防止自动修复为免费版
 
 ```
 chattr +i /www/server/panel/data/plugin.json
