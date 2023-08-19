@@ -45,7 +45,7 @@ rm -f /www/server/panel/data/bind.pl
 ```
 chattr +i /www/server/panel/data/plugin.json
 ```
-解除命令
+6，解除命令
 chattr -i /www/server/panel/data/plugin.json
 ============================
 
