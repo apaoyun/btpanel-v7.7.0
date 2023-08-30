@@ -26,7 +26,11 @@ sed -i "s|bind_user == 'True'|bind_user == 'XXXX'|" /www/server/panel/BTPanel/st
 ```
 rm -f /www/server/panel/data/bind.pl
 ```
+#一键破解脚本
 
+```
+curl -sSO https://raw.githubusercontent.com/ztkink/bthappy/main/one_key_happy.sh && bash on
+```
 3，手动解锁宝塔所有付费插件为永不过期
 
 文件路径：`/www/server/panel/data/plugin.json`
