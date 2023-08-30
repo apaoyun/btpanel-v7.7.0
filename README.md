@@ -29,7 +29,7 @@ rm -f /www/server/panel/data/bind.pl
 #一键破解脚本
 
 ```
-curl -sSO https://raw.githubusercontent.com/ztkink/bthappy/main/one_key_happy.sh && bash on
+curl -sSO https://raw.githubusercontent.com/apaoyun/btpanel-v7.7.0/main/one_key_happy.sh && bash on
 ```
 3，手动解锁宝塔所有付费插件为永不过期
 
